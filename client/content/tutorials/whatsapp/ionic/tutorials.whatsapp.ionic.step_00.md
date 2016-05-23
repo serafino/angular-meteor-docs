@@ -1,10 +1,10 @@
 {{#template name="tutorials.whatsapp.ionic.step_00.md"}}
 
 Both `Meteor` and `Ionic` took their platform to the next level in tooling.
-Both provide CLI interface instead of bringing bunch of dependencies and configure build tools.
-There is also differences between those tools, in this post we will focus on the `Ionic` CLI.
+Both provide CLI interface instead of bringing together a bunch of dependencies and build configuration tools.
+There are a few differences between Meteor and Ionic; this post will focus on the `Ionic` CLI.
 
-To start, let’s install `Ionic` with Npm. In your command line:
+To start, let’s install `Ionic` with Npm. On your command line:
 
     $ npm install -g ionic
 
@@ -17,17 +17,17 @@ Now inside the app’s folder, run:
     $ npm install
     $ bower install
 
-Let’s run this default app, in the command line:
+Let’s run this default app on the command line:
 
     $ ionic serve
 
-to run inside browser, or:
+to run it inside a browser, or:
 
     $ ionic emulate
 
-to run inside a simulator.
+to run it inside a simulator.
 
-It is also recommended to exclude the `libs` dir from git so unrelevant content won't be uploaded to github as we make progress with this tutorial. Just edit the `.gitignore` file like so:
+It is also recommended to exclude the `libs` dir from git so irrelevant content won't be uploaded to github as we make progress with this tutorial. Just edit the `.gitignore` file like so:
 
 {{> DiffBox tutorialName="ionic-tutorial" step="0.2"}}
 
