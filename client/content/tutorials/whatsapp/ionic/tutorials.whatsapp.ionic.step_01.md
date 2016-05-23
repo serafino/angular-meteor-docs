@@ -1,6 +1,6 @@
 {{#template name="tutorials.whatsapp.ionic.step_01.md"}}
 
-In this tutorial we will write our app using `ecmascript6`, which is the latest version of javascript updated with the new ecma standards. (From now on we will refer it as 'es6'). So before we dive into building our app, we need to do some preliminary setup inorder to achieve that.
+In this tutorial we will write our app using `ecmascript6`, which is the latest version of javascript updated with the new ECMA standards. (From now on we will refer it as 'es6'). So before we dive into building our app, we need to do some preliminary setup inorder to achieve that.
 
 In order to write some es6 code we will need a pre-processor. [babel](https://babeljs.io/) plays that role perfectly, but that's not all we need. One of the most powerful tools in es6 is the module system, which uses relative paths to load the different modules we implement. This is something `babel` can't do, because as a syntax compiler, it can't load relative modules. Therefore, we will need some sort of a module bundler.
 
